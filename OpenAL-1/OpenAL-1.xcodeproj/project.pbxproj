@@ -15,6 +15,11 @@
 		078BA2BB15A7F82A005068A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BA2BA15A7F82A005068A2 /* AppDelegate.m */; };
 		078BA2BE15A7F82A005068A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078BA2BC15A7F82A005068A2 /* MainStoryboard.storyboard */; };
 		078BA2C115A7F82A005068A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BA2C015A7F82A005068A2 /* ViewController.m */; };
+		078BA2C815A7F837005068A2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BA2C715A7F837005068A2 /* OpenAL.framework */; };
+		078BA2CA15A7F83B005068A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BA2C915A7F83B005068A2 /* AudioToolbox.framework */; };
+		078BA2CD15A7F8C9005068A2 /* OpenALHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BA2CC15A7F8C9005068A2 /* OpenALHelper.m */; };
+		078BA2D015A7F8D9005068A2 /* Basso.caf in Resources */ = {isa = PBXBuildFile; fileRef = 078BA2CE15A7F8D9005068A2 /* Basso.caf */; };
+		078BA2D115A7F8D9005068A2 /* Sosumi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 078BA2CF15A7F8D9005068A2 /* Sosumi.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,21 @@
 		078BA2AA15A7F82A005068A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		078BA2AC15A7F82A005068A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		078BA2AE15A7F82A005068A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		078BA2B215A7F82A005068A2 /* OpenAL-1-Info.plist */ = {isa = PBXFileReference; path = "OpenAL-1-Info.plist"; sourceTree = "<group>"; };
+		078BA2B215A7F82A005068A2 /* OpenAL-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenAL-1-Info.plist"; sourceTree = "<group>"; };
 		078BA2B415A7F82A005068A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		078BA2B615A7F82A005068A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		078BA2B815A7F82A005068A2 /* OpenAL-1-Prefix.pch */ = {isa = PBXFileReference; path = "OpenAL-1-Prefix.pch"; sourceTree = "<group>"; };
-		078BA2B915A7F82A005068A2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		078BA2B815A7F82A005068A2 /* OpenAL-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenAL-1-Prefix.pch"; sourceTree = "<group>"; };
+		078BA2B915A7F82A005068A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		078BA2BA15A7F82A005068A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		078BA2BD15A7F82A005068A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		078BA2BF15A7F82A005068A2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		078BA2BF15A7F82A005068A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		078BA2C015A7F82A005068A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		078BA2C715A7F837005068A2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		078BA2C915A7F83B005068A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		078BA2CB15A7F8C9005068A2 /* OpenALHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALHelper.h; sourceTree = "<group>"; };
+		078BA2CC15A7F8C9005068A2 /* OpenALHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenALHelper.m; sourceTree = "<group>"; };
+		078BA2CE15A7F8D9005068A2 /* Basso.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Basso.caf; sourceTree = "<group>"; };
+		078BA2CF15A7F8D9005068A2 /* Sosumi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sosumi.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078BA2CA15A7F83B005068A2 /* AudioToolbox.framework in Frameworks */,
+				078BA2C815A7F837005068A2 /* OpenAL.framework in Frameworks */,
 				078BA2AB15A7F82A005068A2 /* UIKit.framework in Frameworks */,
 				078BA2AD15A7F82A005068A2 /* Foundation.framework in Frameworks */,
 				078BA2AF15A7F82A005068A2 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +63,8 @@
 		078BA29B15A7F82A005068A2 = {
 			isa = PBXGroup;
 			children = (
+				078BA2C915A7F83B005068A2 /* AudioToolbox.framework */,
+				078BA2C715A7F837005068A2 /* OpenAL.framework */,
 				078BA2B015A7F82A005068A2 /* OpenAL-1 */,
 				078BA2A915A7F82A005068A2 /* Frameworks */,
 				078BA2A715A7F82A005068A2 /* Products */,
@@ -77,6 +92,9 @@
 		078BA2B015A7F82A005068A2 /* OpenAL-1 */ = {
 			isa = PBXGroup;
 			children = (
+				078BA2D215A7F8F6005068A2 /* sounds */,
+				078BA2CB15A7F8C9005068A2 /* OpenALHelper.h */,
+				078BA2CC15A7F8C9005068A2 /* OpenALHelper.m */,
 				078BA2B915A7F82A005068A2 /* AppDelegate.h */,
 				078BA2BA15A7F82A005068A2 /* AppDelegate.m */,
 				078BA2BC15A7F82A005068A2 /* MainStoryboard.storyboard */,
@@ -96,6 +114,15 @@
 				078BA2B815A7F82A005068A2 /* OpenAL-1-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		078BA2D215A7F8F6005068A2 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				078BA2CE15A7F8D9005068A2 /* Basso.caf */,
+				078BA2CF15A7F8D9005068A2 /* Sosumi.caf */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +177,8 @@
 			files = (
 				078BA2B515A7F82A005068A2 /* InfoPlist.strings in Resources */,
 				078BA2BE15A7F82A005068A2 /* MainStoryboard.storyboard in Resources */,
+				078BA2D015A7F8D9005068A2 /* Basso.caf in Resources */,
+				078BA2D115A7F8D9005068A2 /* Sosumi.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +192,7 @@
 				078BA2B715A7F82A005068A2 /* main.m in Sources */,
 				078BA2BB15A7F82A005068A2 /* AppDelegate.m in Sources */,
 				078BA2C115A7F82A005068A2 /* ViewController.m in Sources */,
+				078BA2CD15A7F8C9005068A2 /* OpenALHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
