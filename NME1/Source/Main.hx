@@ -31,9 +31,9 @@ class Main extends Sprite
         addChild(bitmap);
     }
 
-	public static function main ()
-	{
-		Lib.current.addChild(new Main());
-	}
+    public static function main ()
+    {
+        Lib.current.addChild(new Main());
+    }
 
 }
