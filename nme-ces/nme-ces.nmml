@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="Component Entity System Test" file="ces" main="com.boringuser.ces.TestApplication" package="com.boringuser.ces" version="1.0.0" company="Eric Williams" />
+	
+	<window width="480" height="320" fps="60" orientation="landscape" resizable="false" />
+ 	
+	<set name="BUILD_DIR" value="Export" />
+	
+	<classpath name="Source" />
+	
+	<assets path="Assets/images" rename="images" include="*" exclude="Icon*.png" />
+	<icon path="Assets/nme.svg" />
+
+	<haxelib name="nme" />
+
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+
+	<set name="SHOW_CONSOLE" value="1"/>
+	<haxedef name="SHOW_CONSOLE"/>
+</project>
